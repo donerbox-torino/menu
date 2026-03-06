@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="logo.jpeg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DÖNERBOX MENU</title>
+
+</head>
+
+<body>
+
+<div class="logo">
+<img src="logo.jpeg">
+</div>
+
+<div class="title">
+</div>
+
+<!-- Panini -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+🍔 PANINI E BURGER
+</div>
+
+<div class="section-content">
+<img src="img/panini.jpg">
+</div>
+
+</div>
+
+
+<!-- Piatto -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+🥗 PIATTI E INSALATA
+</div>
+
+<div class="section-content">
+<img src="img/piatti.jpg">
+</div>
+
+</div>
+
+
+<!-- Grill -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+🔥 GRILL
+</div>
+
+<div class="section-content">
+<img src="img/grill.jpg">
+</div>
+
+</div>
+
+
+<!-- Pizza -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+🍕 PIZZA
+</div>
+
+<div class="section-content">
+<img src="img/pizza.jpg">
+</div>
+
+</div>
+
+
+<!-- Golosità -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+🍟 GOLOSITA E DOLCI
+</div>
+
+<div class="section-content">
+<img src="img/golosita.jpg">
+</div>
+
+</div>
+
+
+<!-- Novità -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+⭐ NOVITA
+</div>
+
+<div class="section-content">
+<img src="img/novita.jpg">
+</div>
+
+</div>
+
+
+<!-- Caffetteria -->
+
+<div class="section">
+
+<div class="section-title" onclick="toggle(this)">
+☕ CAFFETTERIA E BIBITE
+</div>
+
+<div class="section-content">
+<img src="img/caffe.jpg">
+</div>
+
+</div>
+
+<script>
+
+function toggle(el){
+
+var content = el.nextElementSibling;
+
+if(content.style.display=="block"){
+content.style.display="none";
+}else{
+content.style.display="block";
+}
+
+}
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+body{
+margin:0;
+font-family: Arial, sans-serif;
+background:#000;
+color:white;
+}
+
+/* logo */
+
+.logo{
+text-align:center;
+padding:25px 0 10px 0;
+}
+
+.logo img{
+width:200px;
+border-radius:12px;
+}
+
+/* başlık */
+
+.title{
+text-align:center;
+font-size:26px;
+font-weight:bold;
+color:#7CFF00;
+margin-bottom:10px;
+}
+
+/* kategori */
+
+.section{
+border-top:1px solid #222;
+}
+
+.section-title{
+padding:18px;
+font-size:20px;
+background:#378049;
+cursor:pointer;
+font-style: italic;
+color: #000;
+font-weight: 900;
+}
+
+.section-title:hover{
+background:#7fc156;;
+}
+
+.section-content{
+display:none;
+padding:10px;
+}
+
+.section-content img{
+width:100%;
+border-radius:10px;
+margin-bottom:10px;
+}
